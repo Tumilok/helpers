@@ -20,7 +20,7 @@ import java.util.Random;
  * </ul>
  *
  * @author Uladzislau Tumilovich
- * @version 1.0
+ * @version 1.4
  */
 class CollectionsHelpers {
 
