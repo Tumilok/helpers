@@ -8,9 +8,21 @@ import java.util.Random;
 /**
  * <p>Presents the work of some helper methods of {@link Collections} class</p>
  *
+ * <ul>
+ *     <li>{@link Collections#reverse(List)} reverses the order of the elements in the specified list.</li>
+ *     <li>{@link Collections#sort(List)} sorts the specified list into ascending order, according to the natural
+ *     ordering of its elements. All elements in the list must implement the {@link Comparable} interface.</li>
+ *     <li>{@link Collections#shuffle(List)} randomly permutes the specified list using a <b>default</b> source of randomness.
+ *     All permutations occur with approximately equal likelihood.</li>
+ *     <li>{@link Collections#shuffle(List, Random)} Randomly permute the specified list using the <b>specified</b>
+ *     source of randomness. All permutations occur with equal likelihood assuming that the source of randomness is fair.</li>
+ *     <li>{@link Collections#swap(List, int, int)} swaps the elements at the specified positions in the specified list.</li>
+ * </ul>
+ *
  * @author Uladzislau Tumilovich
+ * @version 1.0
  */
-public class CollectionsHelpers {
+class CollectionsHelpers {
 
     /**
      * Reverse list using {@link Collections#reverse(List)}
